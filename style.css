@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color:rgb(192, 224, 192);
+    height: 35px;
+    padding: 20px; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+li,h1,ul{
+    display: inline;
+    padding: 10px;  
+}
+ul{
+    margin-left:60%;  
+}
+hr{
+    box-shadow: 2px 2px gray;
+}
+li:hover{
+    color: green;
+}
+.main{
+    background-color:rgb(192, 224, 192) ;
+    height: 300px;
+   padding: 20px;
+
+}
+nav{
+    display: inline-block;
+    padding: 15px;
+}
+.shopnow{
+    border: 10px ;
+    background-color: black;
+    color: white;
+}
+.shopnow:hover{
+    cursor: pointer;
+}
+.watchvideo{
+    border: 10px;
+    background-color: black;
+    color: white;
+}
+.watchvideo:hover{
+    cursor: pointer;
+}
+.species{
+    font-size: small;
+    color: gray;
+    padding-top: 15px;
+}
+.para{
+    padding-top: 50px;
+}
+.pic{
+    display: inline;
+    position: relative;
+   left: 950px;
+   bottom: 200px;
+    
+}
+.container{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+ }
+.aboutbox{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width:200px;
+    flex-wrap: wrap;
+    padding:15px;
+    text-align: center;
+}
+.image{
+    padding-bottom: 10px;
+}
+.topic{
+    padding-top: 25px;
+    text-align: center;
+}
+.products{
+    text-align: center;
+    padding: 15px;
+}
+.productbox{
+    background-color:rgb(192, 224, 192) ;
+    height: 280px;
+   padding: 20px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+.productbox1{
+    position: relative;
+    bottom: 50px;
+}
+.productbox3{
+    position: relative;
+    bottom: 50px;
+}
+.line{
+    background-color:rgb(192, 224, 192) ;
+    text-align: center;
+    padding: 20px;
+}
+.seller{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    text-align: center; 
+}
+.cost{
+    text-align: center;
+}
+.bestseller{
+    margin: 20px;
+}
+.bestsellerbox{
+    height: 400px;
+    width: 200px;
+}
+.clients{
+    background-color:rgb(192, 224, 192) ;
+    height: 250px;
+    padding: 10px;
+    margin-left: 25px;
+    display: flex;
+    position: relative;
+    margin-top: -20px;
+}
+.clientbox{
+    position: relative;
+    bottom: 50px;
+    right: 40px;
+}
+.client{
+    text-align: justify;
+    padding: 50px;
+}
+.newsletter{
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    padding:5px;
+    background-color: black;
+    font-size:10px;
+    color: white;
+    margin: 10px;
+}
+.greeny{
+    background-color:rgb(192, 224, 192) ;
+    height: 200px;
+    padding-top:50px;
+    padding-left: 25px;
+}
+.social{
+    display: flex;
+    padding:5px;
+    justify-content:left;
+}
+.fb{
+    padding-right: 7px;
+}
+.twit{
+    padding-right: 7px;
+}
+.insta{
+    padding-right: 7px;
+}
+.fb:hover{
+    cursor: pointer;
+}
+.twit:hover{
+    cursor: pointer;
+}
+.insta:hover{
+    cursor: pointer;
+}
+.copyright{
+    color: gray;
+    
+    margin-top: 80px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    
+}
